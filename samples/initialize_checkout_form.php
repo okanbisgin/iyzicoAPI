@@ -54,6 +54,8 @@ $firstBasketItem->setCategory1("Collectibles");
 $firstBasketItem->setCategory2("Accessories");
 $firstBasketItem->setItemType(\Iyzipay\Model\BasketItemType::PHYSICAL);
 $firstBasketItem->setPrice("8");
+$firstBasketItem->setSubMerchantKey("4l9YofLsTKlI0w+OOWsh9hAFISQ=");
+$firstBasketItem->setSubMerchantPrice("7.80");
 $basketItems[0] = $firstBasketItem;
 
 $secondBasketItem = new \Iyzipay\Model\BasketItem();
@@ -63,6 +65,8 @@ $secondBasketItem->setCategory1("Game");
 $secondBasketItem->setCategory2("Online Game Items");
 $secondBasketItem->setItemType(\Iyzipay\Model\BasketItemType::VIRTUAL);
 $secondBasketItem->setPrice("5");
+$secondBasketItem->setSubMerchantKey("vVN/Vi2qzRemL3BLBLDPzDHLOdg=");
+$secondBasketItem->setSubMerchantPrice("4");
 $basketItems[1] = $secondBasketItem;
 
 $thirdBasketItem = new \Iyzipay\Model\BasketItem();
@@ -72,6 +76,8 @@ $thirdBasketItem->setCategory1("Electronics");
 $thirdBasketItem->setCategory2("Usb / Cable");
 $thirdBasketItem->setItemType(\Iyzipay\Model\BasketItemType::PHYSICAL);
 $thirdBasketItem->setPrice("15");
+$thirdBasketItem->setSubMerchantKey("L/iskwg877FTNtGg6iXzVz2KbEQ=");
+$thirdBasketItem->setSubMerchantPrice("13.8");
 $basketItems[2] = $thirdBasketItem;
 $request->setBasketItems($basketItems);
 
